@@ -1,0 +1,346 @@
+.highSpammer {
+    font-size: 1vw !important;
+    width: 32vw;
+    margin-top: 0;
+    margin-left: 4.7vw;
+}
+.popupSideMenuContainer {
+  transition: 1s ease;
+}
+
+.uiuxIcon {
+  border-radius: 50%;
+  border-radius: 2px solid white;
+  width: 2.73170vw;
+  height: 2.73170vw;
+}
+
+/* contact i think */
+
+
+.contactUsInsideContainer a {
+  color: #888;
+  font-size: 1.3vw;
+  text-decoration: none;
+  margin-left: 2vw;
+}
+
+.contactUsX {
+  /* border: 1px solid; */
+  position: absolute;
+  right: 2vw;
+  top: 0;
+  cursor: pointer;
+}
+
+.contactUsX p {
+  margin: 0;
+  font-size: 3vw;
+  user-select: none;
+  transition: 0.3s;
+}
+
+.contactUsX:hover p {
+  color: black !important;
+}
+
+.contactUsContainer a span {}
+
+.contactUsContainer a span img {
+  width: 1.6vw;
+  margin-right: 1vw;
+  position: relative;
+  top: 0.25vw;
+}
+
+.contactUsContainer form {
+  width: 88%;
+  margin-left: 5.3%;
+}
+
+.contactUsContainer input {
+  border: 1px solid transparent;
+  width: 100%;
+  background: 0 0;
+  border-bottom: 1px solid #888;
+  font-family: 'Poppins-Regular';
+  font-size: 1rem;
+  padding: .1rem;
+  margin-top: 1vw;
+  outline: 0;
+  /* cursor: pointer; */
+  z-index: 1;
+}
+
+.contactUsContainer textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #888;
+  resize: none;
+  height: 1.4vw;
+  color: #888;
+  margin-top: 1vw;
+  outline: none;
+  transition: 0.5s ease-in;
+}
+
+.unfocues {
+  height: 1.4vw !important;
+}
+
+.focues {
+  height: 8vw !important;
+}
+
+.sendContainer {
+  position: relative;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  /* height: 5vw; */
+  align-items: center;
+}
+
+.uploadButonContainer {
+  position: relative;
+  cursor: pointer;
+}
+
+.upload {
+  width: 1.96vw;
+  display: inline;
+}
+
+.uploadButonContainer p {
+  display: inline;
+  font-size: 1.46412vw;
+  text-size-adjust: 100%;
+}
+
+.uploadButonContainer input {
+  width: 10vw !important;
+  border: 1px solid blue !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 3vw;
+  margin: 0 !important;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.mobileContactIcon {
+  display: none;
+}
+
+.headingPointer {
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.uiuxIcon {
+  border-radius: 50%;
+  border-radius: 2px solid white;
+  width: 2.73170vw;
+  height: 2.73170vw;
+  transition: .3s ease;
+  opacity: 1;
+}
+
+.sendButton {
+  display: inline-block;
+  color: #fff;
+  background: #888;
+  position: relative;
+  border: 2px solid #fff;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all .3s;
+  font-size: 1.3vw;
+  float: right;
+  margin-top: 0;
+  flex-shrink: 0;
+}
+
+/* tablet */
+/* tablet */
+/* tablet */
+@media only screen and (min-device-width : 767px) and (max-device-width : 1360px) {
+  .contactUsContainer p {
+    font-size: 1.953125vw;
+  }
+
+  .contactUsInsideContainer a {
+    font-size: 1.953125vw;
+  }
+
+  .contactUsContainer a span img {
+    width: 2.6vw;
+  }
+
+  .contactUsContainer input {
+    font-size: 1.953125vw;
+  }
+
+  .contactUsContainer textarea {
+    font-size: 1.953125vw;
+  }
+  .contactUsContainer textarea{
+    height:3.4vw;
+  }
+
+  .uploadButonContainer p {
+    font-size: 1.953125vw;
+  }
+
+  .upload {
+    width: 2.96vw;
+  }
+
+  .unfocues {
+    height: 3.4vw !important;
+  }
+  .contactUsX p{
+    font-size: 3.5vw !important;
+  }
+  .sendButton {
+    font-size: 1.9vw;
+  }
+}
+
+/* mobile */
+/* mobile */
+/* mobile */
+@media(max-device-width : 767px) {
+  .contactUsX p {
+    margin: 0;
+    font-size: 10vw !important;
+    user-select: none;
+    transition: 0.3s;
+  }
+
+  .mobileContactIcon {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 5vw;
+    right: 6vw;
+  }
+
+  .mobileContactIcon img {
+    width: 13vw;
+  }
+
+  /* contact us */
+  .contactUsContainer {
+    right: 0;
+  }
+
+  .contactUsContainerShow {
+    width: 100vw;
+    right: 0;
+  }
+
+  .contactUsContainerHide {
+    width: 0vw;
+  }
+
+  .contactUsInsideContainer {
+    width: 80vw;
+    padding: 4.026354vw 8.026354vw;
+  }
+
+  .contactUsContainer p {
+    color: #888888;
+    font-family: 'Poppins-Regular';
+    font-size: 4.3vw;
+  }
+
+  .contactUsContainer a {
+    font-size: 4.3vw;
+  }
+
+  .contactUsContainer a span img {
+    width: 5.6vw;
+    margin-right: 1vw;
+    position: relative;
+    top: 0.25vw;
+  }
+
+  .upload {
+    width: 6.96vw;
+    display: inline;
+  }
+
+  .contactUsContainer form {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .contactUsContainer input {
+    border: 1px solid transparent;
+    width: 100%;
+    background: 0 0;
+    border-bottom: 1px solid #888;
+    font-family: 'Poppins-Regular';
+    font-size: 4.2vw;
+    padding: .1rem;
+    margin-top: 1vw;
+    outline: 0;
+    margin: 4vw 0;
+  }
+
+  .contactUsContainer textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #888;
+    resize: none;
+    height: 7.4vw;
+    color: #888;
+    margin-top: 1vw;
+    font-size: 4.2vw;
+    margin-top: 5vw;
+  }
+
+  .unfocues {
+    height: 8vw !important;
+  }
+
+  .focues {
+    height: 18vw !important;
+  }
+
+  .sendButton {
+    display: inline-block;
+    color: #fff;
+    background: #888;
+    position: relative;
+    border: 2px solid #fff;
+    padding: 1rem 2rem;
+    border-radius: 6vw;
+    cursor: pointer;
+    transition: all .3s;
+    font-size: 4.3vw;
+    float: right;
+    margin-top: 1vw;
+  }
+
+  /* contact us end */
+}
+/* contact fixes */
+.inputHolder{
+  position: relative;
+}
+.astrick{
+  position: absolute;
+  left: -.5vw;
+  top: 35%;
+  font-size: 1vw;
+  color: red;
+}
+.contactUsContainer textarea{
+  overflow: hidden;
+}
